@@ -11,7 +11,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-public class Solution2 {
+public class CountGender {
 	
 	public static class Map extends Mapper<LongWritable, Text, Text, Text> {
 		

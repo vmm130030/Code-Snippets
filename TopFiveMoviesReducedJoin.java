@@ -16,7 +16,7 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
-public class Solution4 
+public class TopFiveMoviesReducedJoin 
 {
 	public static class UserMapper extends Mapper<LongWritable, Text, Text, Text> {
 	   

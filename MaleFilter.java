@@ -12,7 +12,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 
-public class Solution1 {
+public class MaleFilter {
 
 	public static class Map extends Mapper<LongWritable, Text, Text, NullWritable> {
 	

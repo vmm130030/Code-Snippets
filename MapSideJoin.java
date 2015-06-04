@@ -18,7 +18,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 
-public class Solution5 
+public class MapSideJoin 
 {
 		public static class UserMapper extends Mapper<LongWritable, Text, Text, Text>
 		{
@@ -97,9 +97,7 @@ public class Solution5
 				{
 					result.set(val.toString());
 					myKey.set(key.toString());
-					
 					context.write(myKey,result );
-					
 				}
 			}		
 		}

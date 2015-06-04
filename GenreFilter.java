@@ -13,7 +13,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 
 
-public class Solution3 {
+public class GenreFilter {
 	
 public static class Map extends Mapper<LongWritable, Text, Text, Text> {
 		
